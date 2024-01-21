@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta name = "view port" content = "width=device-width,initial-scale=1.0">
+        <title>day night </title>
+        <link rel = "stylesheet" href = "style.css">
+    </head>
+    <body>
+        <div >
+
+            <div class="button-box">
+                <div class="sun" id="sun">
+                    <div class="line1"></div>
+                    <div class="line2"></div>
+                    <div class="line3"></div>
+                    <div class="line4"></div>
+
+                </div>
+            </div>
+
+        </div>
+
+
+        <script>
+            let sun = document.getElementById("sun");
+
+            sun.onclick = function(){
+                sun.classList.toggle("night")
+            }
+            
+        </script>
+    </body>
+</html>
